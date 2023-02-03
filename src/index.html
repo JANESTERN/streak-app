@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>MY streak counter</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- first div -->
+        <div class="content" id="contentdiv">
+            <div class="addsign" id="addSign">
+                <ion-icon name="add-circle-outline"></ion-icon>
+            </div>
+            <div class="mobile">
+                <img src="images/Screenshot (28).png" alt="">
+            </div>
+            <div class="introduction">
+                <h1>Welcome To My Streak Counter</h1>
+            </div>
+        </div>
+
+        <!-- second div display:none at default -->
+        <div class="content2" id="content2" style="display: none;">
+            <div class="close-sign">
+                <div class="closeBtn">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </div>
+                <div class="close">
+                    <ion-icon name="list-outline"></ion-icon>
+                    <p class="add-task">Add a Task</p>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Please add a task</h2>
+                <form action="" id="form">
+                    <div id="validationMessage"></div>
+                    <label> Task Name</label><br>
+                    <input type="text" name="addTask" id="addTask"><br>
+                    <label>Image</label><br>
+                    <input type="url" name="ImageInput" id="ImageInput"><br>
+                    <label>Date</label><br>
+                    <input type="date" name="dateInput" id="dateInput"><br>
+                    <button id="createTask">Add Task</button>
+                </form>
+            </div>
+            <div class="rectangle">
+            </div>
+        </div>
+        <div class="popup" id="popUp" style="display: none;">
+
+        </div>
+
+        <div class="displayContent">
+
+
+        </div>
+
+        <script type="module" src="/dist/index.js" defer></script>
+        <script>var exports = {};</script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.j
+</body>
+</html>
